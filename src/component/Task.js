@@ -54,11 +54,11 @@ const submitform=(e)=>{
   <h3>Email:</h3>
   <input type="email" name='email' placeholder="Enter your email" className='border-2 mb-2 border-gray-200 bg-opacity-50 focus:ring-2 focus:border-indigo-600 focus:bg-white focus:ring-indigo-200 outline-none'  onChange={handelChange}></input><br/>
   <h4>Password:</h4>
-  <input type="password" name='password' placeholder="Enter your email" className='border-2 mb-2 border-gray-200 bg-opacity-50 focus:ring-2 focus:border-indigo-600 focus:bg-white focus:ring-indigo-200 outline-none'  onChange={handelChange}></input><br/>
+  <input type="password" name='password' placeholder="Enter your password" className='border-2 mb-2 border-gray-200 bg-opacity-50 focus:ring-2 focus:border-indigo-600 focus:bg-white focus:ring-indigo-200 outline-none'  onChange={handelChange}></input><br/>
   <h5>Date of Birth:</h5>
   <input type="text" name='DOB' placeholder="DD/MM/YY" className='border-2 mb-2 border-gray-200 bg-opacity-50 focus:ring-2 focus:border-indigo-600 focus:bg-white focus:ring-indigo-200 outline-none'  onChange={handelChange}></input><br/>
    <h7>Phone Number:</h7><br/>
-  <input type="number" name='phonenumber' placeholder="Enter tour number" className='border-2 mb-2 border-gray-200 bg-opacity-50 focus:ring-2 focus:border-indigo-600 focus:bg-white focus:ring-indigo-200 outline-none'  onChange={handelChange}></input><br></br>
+  <input type="number" name='phonenumber' placeholder="Enter your number" className='border-2 mb-2 border-gray-200 bg-opacity-50 focus:ring-2 focus:border-indigo-600 focus:bg-white focus:ring-indigo-200 outline-none'  onChange={handelChange}></input><br></br>
   Gender:
     <input type="radio" value="male" name="gender"   onChange={handelChange}></input>
   Male
@@ -81,7 +81,7 @@ const submitform=(e)=>{
                 <div>email : {value.email}</div>
                 <div>password : {value.password}</div>
                 <div> Date Of Birth : {value.DOB}</div>
-                <div> Phone Number : {value.Phonenumber}</div>
+                <div> Phone Number : {value.phonenumber}</div>
                 <div> Gender : {value.gender}</div>
                 <hr />
               </div>
